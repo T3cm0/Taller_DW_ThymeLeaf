@@ -13,12 +13,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/plantillas")
 public class LosPipolPlantilla {
-
-	 @GetMapping("/los-pipol-solo-texto")
-	 public String losPipolSoloTexto() {
-		 return "los-pipol-solo-texto";
-	 }
-	 
+	
+	@GetMapping("/los-pipol-solo-texto")
+	public String losPipolSoloTexto() {
+		return "los-pipol-solo-texto";
+	}
 	 
 	 @GetMapping("/los-pipol-paso-parametro")
 	 public ModelAndView losPipolPasoParametro() {
