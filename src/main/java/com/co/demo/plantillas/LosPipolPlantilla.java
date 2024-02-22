@@ -14,11 +14,6 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/plantillas")
 public class LosPipolPlantilla {
 
-	 @GetMapping("/los-pipol-template-model-and-view")
-     public ModelAndView losPipolTemplateModelAndView() {
-         return new ModelAndView("los-pipol-template-model-and-view");
-     }
-
 	 @GetMapping("/los-pipol-solo-texto")
 	 public String losPipolSoloTexto() {
 		 return "los-pipol-solo-texto";
