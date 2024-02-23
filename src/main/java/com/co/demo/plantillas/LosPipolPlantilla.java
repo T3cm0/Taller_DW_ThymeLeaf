@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
-@RequestMapping("/plantillas")
+@RequestMapping("/bftest/plantillas")
 public class LosPipolPlantilla {
 	
 	@GetMapping("/los-pipol-solo-texto")
